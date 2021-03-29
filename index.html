@@ -3,22 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="robots" content="nofollow">
-	<title>家計簿</title>
+	<title>kakeibo</title>
 	<link rel="stylesheet" href="index.css">
 </head>
 <body id="demo01" class="sample">
 <div class="sample_wrap">
 	<h1 class="sample_h1">家計簿</h1>
-	<p class="sample_p">その月推定いくら貯金出来るかわかります</p>
+	<p class="sample_p">手取りからその月推定いくら貯金出来るか(参考までに自分の平均生活費を載せてみた)</p>
+	<p class="sample_p">＊スマホ、インターネット、サブスクなど月額固定の料金は年単位で考えると思ったより高額になりがち(1年単位で考えてみるといいかも)</p>
 	<form class="sample_form" method="post" action="">
 		<table class="sample_table">
 			<tr>
-				<th class="sample_th">個数</th>
-				<td class="sample_td"><input value="" name="textbox01" type="text" id="jsNum" class="sample_input">個</td>
+				<th class="sample_th">手取り(参考：200,000円)</th>
+				<td class="sample_td"><input value="" name="textbox01" type="text" id="jsNum" class="sample_input">円</td>
 			</tr>
 			<tr>
-				<th class="sample_th">合計金額</th>
-				<td class="sample_td"><input value="" name="textbox02" type="text" id="jsPrice" class="sample_input" readonly>円</td>
+				<th class="sample_th">家賃(参考：52,000円)</th>
+				<td class="sample_td"><input value="" name="textbox02" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">食費(参考：30,000円)</th>
+				<td class="sample_td"><input value="" name="textbox03" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">電気(参考：4,000円)</th>
+				<td class="sample_td"><input value="" name="textbox04" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">ガス(参考：2,000円)</th>
+				<td class="sample_td"><input value="" name="textbox05" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">水道(参考：1,500円)</th>
+				<td class="sample_td"><input value="" name="textbox06" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">スマホ(参考：1,600円)</th>
+				<td class="sample_td"><input value="" name="textbox07" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">インターネット(参考：4,500円)</th>
+				<td class="sample_td"><input value="" name="textbox08" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">サブスク(月額課金)(参考：加入なし)</th>
+				<td class="sample_td"><input value="" name="textbox09" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">酒(参考：飲めない)</th>
+				<td class="sample_td"><input value="" name="textbox10" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">タバコ(参考：吸わない)</th>
+				<td class="sample_td"><input value="" name="textbox11" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">アプリ課金(参考：年に10,000円使わない)</th>
+				<td class="sample_td"><input value="" name="textbox12" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">その他(交際費など)</th>
+				<td class="sample_td"><input value="" name="textbox13" type="text" id="jsNum" class="sample_input">円</td>
+			</tr>
+			<tr>
+				<th class="sample_th">推定貯金額(参考：交際費なしで約100,000円貯金)</th>
+				<td class="sample_td"><input value="" name="textbox14" type="text" id="jsPrice" class="sample_input" readonly>円</td>
 			</tr>
 		</table>
 		<button type="submit" class="sample_button">送信</button>

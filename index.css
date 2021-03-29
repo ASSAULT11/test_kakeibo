@@ -1,4 +1,4 @@
-.sample {
+/*.sample {
 	line-height: 1;
 	font-size: 62.5%;
 	font-family: "游ゴシック体", "Yu Gothic", "YuGothic", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo, Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
@@ -49,10 +49,7 @@
 	text-align: right;
 	font-size: 1.6rem;
 }
-.sample_input[readonly] {
-	cursor: default;
-	background-color: #DDD;
-}
+
 .sample_button {
 	display: block;
 	padding: 0 24px;
@@ -60,4 +57,9 @@
 	font-size: 1.4rem;
 	line-height: 2;
 	cursor: pointer;
+} */
+
+.sample_input[readonly] {
+	cursor: default;
+	background-color: #DDD;
 }
